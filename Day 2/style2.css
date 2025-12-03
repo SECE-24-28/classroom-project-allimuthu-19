@@ -1,0 +1,32 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    position: relative;
+    left: 10px;
+
+    height: 100px;
+
+    padding-left: 50px; /* ONLY LEFT PADDING */
+
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.paragraph:hover{
+    font-size:xx-large;
+    color:aqua;
+    background-color: yellow;
+}
+
+.paragraph:active{
+    color:rgb(112, 212, 17);
+    background-color: rgb(122, 106, 156);
+}
